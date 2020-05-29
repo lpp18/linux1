@@ -7,6 +7,9 @@ let server = http.createServer(function(req, res){
     res.setHeader('Content-Type','text/html');
     res.end('hello blog')
 })
+/**
+* hhahhahahhahahah
+*/
 server.listen(3000, ()=>{
     console.log('server is listening at point 3000')
 })
